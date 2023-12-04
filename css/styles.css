@@ -31,7 +31,13 @@ body{
 
 .brand span {
     color:#cb660a;
+    font-size: 2rem;
 }
+
+.brand h2 {
+    font-size: 2em;
+}
+
 
 
 .menu{
@@ -72,11 +78,75 @@ body{
 
 .main img {
     width: 380px;
+    border: 7px solid #cb660a;
+    height: 500px;
+    margin-left: 10rem;
 }
 
 .info-content h1{
-    font-size: 3em;
-    
+    font-size: 4em;
+}
+.info-content span{
+    color: #cb660a;
 }
 
+.download-cv{
+    padding: 10px 10px;
+    background-color: #cb660a;
+    border:none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 1px 3px 11px -5px #fff;
+}
+.download-cv:hover{
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.about {
+  display: grid;
+  grid-template-columns:repeat(10,1fr);
+  width: 100vw;
+  align-items: center;
+}
+
+.about img {
+    width: 100%;
+    grid-column: 1/5;
+}
+
+
+.divider{
+    background-color: #cb660a;
+    width: 60px;
+    height: 5px;
+    margin-bottom: 2em;
+    margin-top: 5px;
+}
+
+.about-info{
+    grid-column: 5/10;
+    padding: 3em;
+}
+
+
+.about-info h2 {
+     font-size: 2em;
+    }
+
+ .portfolio{
+    width: 100vw;
+    height: 100vh;
+    background-color: #231f33;
+    color:#fff;
+ }   
+
+ .portfolio-heading{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding:3em;
+ }
 
