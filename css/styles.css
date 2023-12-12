@@ -38,8 +38,6 @@ body{
     font-size: 2em;
 }
 
-
-
 .menu{
     display: flex;
     width: 50%;
@@ -99,9 +97,11 @@ body{
     font-weight: 600;
     box-shadow: 1px 5px 11px -5px #ffffff;
 }
+
 .download-cv:hover{
     background-color: #ffffff;
     box-shadow: none;
+    border: solid 1px #0b0914;
 }
 
 .about {
@@ -115,7 +115,6 @@ body{
     width: 100%;
     grid-column: 1/5;
 }
-
 
 .divider{
     background-color: #cb660a;
@@ -199,7 +198,6 @@ body{
     width: 100vw;
     background-color: #231f33;
     color:#fff;
-    padding: 3em;
 }
 
 .contact-heading {
@@ -209,5 +207,105 @@ body{
     padding:3em;
 }
 
+.container-contact {
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+.container-contact img {
+    width: 750px;
+    height: 700px;
+    object-fit: contain;
+    opacity: 0.1;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+}
+
+.form-group .input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.form-group textarea {
+    height: 150px;
+    padding: 1.5em;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+}
 
 
+/* CSS boton style btn-submit */
+.form-group .btn-submit {
+  margin: 10px;
+  padding: 15px 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 10px;
+  display: block;
+  border: 0px;
+  font-weight: 700;
+  box-shadow: 0px 0px 14px -7px #f09819;
+  background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%);
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.form-group .btn-submit:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.form-group .btn-submit:active {
+  transform: scale(0.95);
+}
+
+.footer {
+    background-color: #f3891e;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 200px;
+    padding: 2em;
+}
+
+.footer h2 {
+    font-size: 3em;
+}
+
+.footer h5 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+
+.sotial-networks {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    margin-top: 1em;
+}
+
+.sotial-networks i {
+    font-size: 1.5em;
+    color:initial;
+}
